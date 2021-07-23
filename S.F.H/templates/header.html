@@ -1,0 +1,204 @@
+
+{%  load static %}
+
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+    <title>S.F.H | Template</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Yoga Studio Template, Male_Fashion Template, Responsive Bootstrap4 Shop Template, Fashi Template,Created by Imran Hossain from https://imransdesign.com/">
+    <meta name="keywords" content="Yoga, Fashi, Male_Fashion, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+    <link href="{% static 'plugins/font-awesome-4.7.0/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.theme.default.cs' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/animate.css' %}">
+    <link href="{% static 'plugins/colorbox/colorbox.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/main_styles.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/responsive.css' %}">
+
+    
+    <!-- Google Font -->
+    <link href="{% static 'https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap' %}" rel="stylesheet">
+    <link href="{% static 'https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap' %}"
+        rel="stylesheet">
+    <link href="{% static '://fonts.googleapis.com/css?family=Open+Sans:300,400,700' %}" rel="stylesheet">
+    <link href="{% static 'https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap' %}" rel="stylesheet">
+    <link href="{% static 'https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap' %}"
+    rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="{% static 'css/slicknav.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/jquery-ui.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static '/themify-icons.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/elegant-icons.css' %}" type="text/css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.css' %}">
+    <!-- fontawesome -->
+	<link rel="stylesheet" href="{% static 'css/all.min.css' %}">
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" type="text/css">
+    <!-- animate css -->
+	<link rel="stylesheet" href="{% static 'css/animate.css' %}" type="text/css">
+	<!-- mean menu css -->
+	<link rel="stylesheet" href="{% static 'css/meanmenu.min.css' %}" type="text/css">
+	<!-- main style -->
+	<link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css">
+	<!-- responsive -->
+	<link rel="stylesheet" href="{% static 'css/responsive.css' %}" type="text/css">
+    <!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="{% static 'img/favicon.png' %}">
+
+
+    <!-- fh -->
+    <!-- Custom Theme files -->
+	<link href="{% static 'fh/css/bootstrap.css' %}" type="text/css" rel="stylesheet" media="all">
+	<!-- shop css -->
+	<link href="{% static 'fh/css/shop.css' %}" type="text/css" rel="stylesheet" media="all">
+	<link href="{% static 'fh/css/flexslider.css' %}" type="text/css" rel="stylesheet" media="all">
+	<link href="{% static 'fh/css/style.css' %}" type="text/css" rel="stylesheet" media="all">
+	<!-- Range-slider-css -->
+	<link rel="stylesheet" type="text/css" href="{% static 'fh/css/jquery-ui1.css' %}">
+    <!-- faq -->
+    <link href="{% static 'fh/css/faq.css' %}" rel="stylesheet" type="text/css" media="all" />
+    <!-- Cart -->
+    <link href="{% static 'fh/css/checkout.css' %}" type="text/css" rel="stylesheet" media="all">
+    <!-- font-awesome icons -->
+	<!-- <link href="{% static 'fh/css/fontawesome-all.min.css' %}" rel="stylesheet"> -->
+	<!-- //Custom Theme files -->
+	<!-- online-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+	<!-- //online-fonts -->
+
+    <!-- aroma -->
+    <link rel="stylesheet" href="{% static 'ar/css/stay.css' %}">
+
+
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="container-fluid">
+            <div class="inner-header">
+                <div class="logo">
+                    <a href="{% url 'home' %}"><img src="{% static 'img/logo.png' %}" alt=""></a>
+                </div>
+                <div class="header-right">
+
+                    <a href="{% url 'show_cart' %}"><img src="{% static 'img/icons/cart.png' %}" alt=""></a>
+                    
+                </div>
+               
+                <nav class="main-menu mobile-menu">
+                    <ul>
+                        <li><a href="{% url 'home' %}">Home</a></li>
+                        <li><a href="#">Men</a>
+                            <ul class="sub-menu">
+                                <li style="color: rgb(219, 32, 179);"> &nbsp; <u>Topwear</u></li>
+                                {% for c in cat %}  
+                                <li style="color: rgb(74, 74, 241)"><a href="{% url 'men1' c.id %}">&nbsp; {{c.name}}</a></li>
+                                
+                                {% endfor %}
+                                <li style="color: rgb(219, 32, 179);">&nbsp; <u>Indian & Festivewear</u></li>
+                                {% for c2 in cat2 %}
+                                <li><a href="{% url 'men1' c2.id %}">&nbsp;{{c2.name}} </a></li>
+                                
+                                {% endfor %}
+                            </ul>
+                        </li>
+                        <li><a href="#">Women</a>
+                            
+                            <ul class="sub-menu">
+                                <li style="color: rgb(219, 32, 179);"> &nbsp; <u>Western wear</u></li>
+                                {% for w1 in wca %}     
+                                <li style="color: rgb(74, 74, 241)"><a href="{% url 'men1' w1.id %}">&nbsp;{{w1.name}}</a></li>
+                    
+                                {% endfor %}
+                                  
+                                <li style="color: rgb(219, 32, 179);">&nbsp; <u>Indian & Fussion wear</u></li>
+                                {% for w2 in wca2 %}
+                                <li><a href="{% url 'men1' w2.id %}">&nbsp; {{w2.name}}</a></li>
+                                
+                                {% endfor %}    
+                            </ul>
+                           
+                        </li>
+                        <li><a href="#">Kids</a>
+                            <ul class="sub-menu">
+                                <li style="color: rgb(219, 32, 179);"> &nbsp; <u>Boys</u></li>
+                                {% for k1 in kca %}   
+                                <li style="color: rgb(74, 74, 241)"><a href="{% url 'men1' k1.id %}">&nbsp; {{k1.name}}</a></li>
+                                <!-- <li style="color: rgb(74, 74, 241)"><a href="shirts.html">&nbsp; Shirts</a></li>
+                                <li style="color: rgb(74, 74, 241)"><a href="shorts.html">&nbsp; Shorts</a></li>
+                                <li style="color: rgb(74, 74, 241)"><a href="jeans.html">&nbsp; Jeans</a></li>
+                                <li style="color: rgb(74, 74, 241)"><a href="trousers.html">&nbsp; Trousers</a></li>
+                                <li style="color: rgb(74, 74, 241)"><a href="Ethic Wear.html">&nbsp; Ethic Wear</a></li> -->
+                                {% endfor %}
+                               
+                                <li style="color: rgb(219, 32, 179);">&nbsp; <u>Girls</u></li>
+                                {% for k2 in kca2 %}
+                                <!-- <li><a href="tshirts.html">&nbsp; Dresses</a></li>
+                                <li><a href="casualshirts.html">&nbsp; Top</a></li>
+                                <li><a href="formalshirts.html">&nbsp; T-shirt</a></li> -->
+                                <li style="color: rgb(74, 74, 241)"><a href="{% url 'men1' k2.id %}">&nbsp; {{k2.name}}</a></li>
+                                <!-- <li style="color: rgb(74, 74, 241)"><a href="jeans.html">&nbsp; Jeans</a></li>
+                                <li style="color: rgb(74, 74, 241)"><a href="Ethic Wear.html">&nbsp; Ethic Wear</a></li> -->
+                                    <!--<li><a href="suits.html">Suits</a></li>-->
+                                {% endfor %}
+
+                                <li style="color: rgb(219, 32, 179);">&nbsp; <u> Collection </u></li>
+                                {% for k3 in kca3 %}
+                                <!-- <li><a href="tshirts.html">&nbsp; Dresses</a></li>
+                                <li><a href="casualshirts.html">&nbsp; Top</a></li>
+                                <li><a href="formalshirts.html">&nbsp; T-shirt</a></li> -->
+                                <li style="color: rgb(74, 74, 241)"><a href="{% url 'men1' k3.id %}">&nbsp; {{k3.name}}</a></li>
+                                <!-- <li style="color: rgb(74, 74, 241)"><a href="jeans.html">&nbsp; Jeans</a></li>
+                                <li style="color: rgb(74, 74, 241)"><a href="Ethic Wear.html">&nbsp; Ethic Wear</a></li> -->
+                                <!--<li><a href="suits.html">Suits</a></li>-->
+                                {% endfor %}
+
+                                </ul>
+                        </li>
+                        <li><a href="{% url 'about' %}">About</a></li>
+                        <li><a href="{% url 'contact' %}">Contact</a></li>
+                        <li><a href="">MyAccount</a>
+                            <ul class="sub-menu">
+                                <li style="color: rgb(19, 14, 18);"> <a href="{% url 'myorder' %}"> &nbsp;  MY ORDER  </a></li>
+                                <!-- <br> -->
+                                <li style="color: rgb(12, 9, 11);"><a href="{% url 'faq' %}"> &nbsp;  FAQS  </a> </li>
+                            </ul>
+                        </li>
+                        {% if request.session.user %}
+                        <li><a href="{% url 'logout' %}">logout</a></li>
+                        {% else %}
+                        <li><a href="{% url 'register' %}">Register</a>/<a href="{% url 'login' %}">Login</a></li>
+                        {% endif %}
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header Info End -->
+    <!-- Header End -->
